@@ -1,0 +1,23 @@
+# IntelliJ #
+############
+.idea/
+*.iml
+
+# Maven Directories #
+#####################
+target/
+test-results/
+log/
+
+# Properties #
+##############
+environment.properties
+config.xml
+
+# Driver binaries #
+###################
+*chromedriver
+
+# OS X #
+########
+.DS_Store

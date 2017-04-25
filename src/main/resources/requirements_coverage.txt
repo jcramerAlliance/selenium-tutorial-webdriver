@@ -1,0 +1,1 @@
+GOOG-1001-F001 -- search bar is visible on homepage
