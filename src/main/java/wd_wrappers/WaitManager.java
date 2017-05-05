@@ -64,4 +64,8 @@ public class WaitManager {
     public WebElement waitForElementFound(By locator) {
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
+
+    public void waitForPageTitleToBe(String expectedPageTitle) {
+        wait.until(ExpectedConditions.titleIs(expectedPageTitle));
+    }
 }
